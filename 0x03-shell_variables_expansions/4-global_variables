@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "#!/bin/bash\nenv" > list_env_variables.sh
