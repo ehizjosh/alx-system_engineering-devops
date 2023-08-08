@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e '#!/bin/bash\nif [ -n "$TRUEKNOWLEDGE" ]; then\n    result=$((128 + $TRUEKNOWLEDGE))\n    echo "Result of addition: $result"\nelse\n    echo "Environment variable TRUEKNOWLEDGE is not set."\nfi' > addition_script.sh && chmod +x addition_script.sh && ./addition_script.sh
+result=$((128 + 'TRUEKNOWLEDGE'))
