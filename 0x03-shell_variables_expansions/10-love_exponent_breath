@@ -1,0 +1,2 @@
+#!/bin/bash
+echo '#!/bin/bash' > power_script.sh && echo 'result=$((BREATH ** LOVE))' >> power_script.sh && echo 'echo "Result: $result"' >> power_script.sh && chmod +x power_script.sh
